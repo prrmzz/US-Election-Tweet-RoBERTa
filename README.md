@@ -53,15 +53,19 @@ Each row in the dataset contains:
 
 ## Results
 
-The fine-tuned RoBERTa model achieved **100% accuracy** on the test set. Here is the classification report:
+The fine-tuned RoBERTa model achieved **100% accuracy** on the test set. Below is the detailed classification report:
 
-          precision    recall  f1-score   support
-negative       1.00      1.00      1.00         3
- neutral       1.00      1.00      1.00        13
-positive       1.00      1.00      1.00        34
-accuracy                           1.00        50
+| Class     | Precision | Recall | F1-Score | Support |
+|-----------|-----------|--------|----------|---------|
+| Negative  | 1.00      | 1.00   | 1.00     | 3       |
+| Neutral   | 1.00      | 1.00   | 1.00     | 13      |
+| Positive  | 1.00      | 1.00   | 1.00     | 34      |
+| **Accuracy** |          |        | **1.00** | **50**  |
+| **Macro Avg** | 1.00    | 1.00   | 1.00     | 50      |
+| **Weighted Avg** | 1.00 | 1.00   | 1.00     | 50      |
 
 ---
+
 
 ## Inference
 
