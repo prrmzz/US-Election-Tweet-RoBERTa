@@ -9,7 +9,7 @@ This project focuses on sentiment analysis of tweets related to the 2024 U.S. El
 2. [Dataset](#dataset)
 3. [Results](#results)
 4. [Inference](#inference)
-5. [License](#license)
+
 
 ---
 
